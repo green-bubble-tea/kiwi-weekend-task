@@ -122,7 +122,7 @@ And the output will be:
     "travel_time": "5:10:00"
 }]
 ```
-##How it's done 
+## How it's done 
 As stated above, the program takes at least one path to .csv file, an origin code and destination code. 
 After the arguments are parsed and validated it's time to build the main structure.
 Given the first entry (path) it builds the data structure - a dictionary, where keys are rows from csv, but converted to tuples and values are empty lists (so far).
@@ -164,7 +164,7 @@ I did my best trying to simplify and sped up the algorithms and here are the tim
 
 ==================================
 
-##Corrections
+## Corrections
 
 Refactoring log after the initial feedback:
 * utils script was split into parse_flights - script designed only to deal with finding, filtering and building flight connections, time_utils - functions related to working with timestamps and arg_parser - parsing cli arguments
