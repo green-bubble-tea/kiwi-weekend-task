@@ -1,6 +1,6 @@
-#Kiwi 10-year anniversary Python weekend
+# Kiwi 10-year anniversary Python weekend
 
-##Project structure 
+## Project structure 
     .
     ├── data                    # Data files provided by Kiwi
         ├────example0.csv       # sample data #0
