@@ -165,7 +165,7 @@ I did my best trying to simplify and sped up the algorithms and here are the tim
 ==================================
 
 ##Corrections
-I didn't upload this solution anywhere, so I will summarize the edits here instead of commit messages
+
 Refactoring log after the initial feedback:
 * utils script was split into parse_flights - script designed only to deal with finding, filtering and building flight connections, time_utils - functions related to working with timestamps and arg_parser - parsing cli arguments
 * main.py was cleared of all the code except for calling the parsing functions and showing/saving the output
